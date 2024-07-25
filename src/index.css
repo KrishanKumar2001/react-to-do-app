@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #efefef;
+   font-family: 'Roboto', sans-serif;
+   color: #344D70;
+}
+
+#mainBlock > article{
+ background: #fff;
+ padding:10px;
+ border: 1px solid #eee;
+  width: 90%;
+  margin:20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#mainBlock > article h1{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 10px;
+  
+}
+
+#mainBlock > article main{
+  display: flex;
+  gap: 10px;
+ justify-content: space-around;
+}
+.form-container{
+  width: 50%;
+  background-color: #673ab71c;
+  padding: 10px;
+}
+
+form{
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+  
+}
+
+#mainBlock form input{
+  width: 100%;
+  /* border-radius: 4px; */
+  color: #344D70;
+  outline: none;
+  padding: 7px;
+  border: 1px solid #ccc;
+
+}
+
+form label{
+  color: #344D70;
+  text-transform: capitalize;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+
+
+.todo{
+  width: 50%;
+  background-color: #673ab71c;
+  padding: 10px;
+}
+
+form button{
+  background-color: #344D70;
+  border: 1px solid #fff;
+  font-weight: bold;
+  width: auto;
+  padding: 10px  20px;
+  color: white;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+
+
+/* #mainBlock > article main> div{
+  flex: 1;
+  background-color: #b6c9e5;
+  padding: 10px;
+} */
+
+.todo h2{
+   font-size: 20px;
+   text-transform: capitalize;
+   font-weight: 300;
+   padding: 10px 0;
+   border-bottom: 1px solid #673ab71a;
+   margin: 10px 0px;
+   background-color: #fff;
+   padding: 10px;
+   box-shadow: 0px 0px 2px 0px #ccc;
+}
+
+.todo table{
+  width: 100%;
+  border: 1px solid #bebebe;
+  
+}
+
+.todo table thead{
+  background-color: #344D70;
+  color: #fff;
+  padding: 10px;
+}
+
+.todo table tr,td,th{
+  border: 1px solid #607D8B;
+  border-collapse: collapse;
+  width: fit-content;
+  padding:5px;
+  margin: 5px;
+}
+
+.update,.delete{
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  color: white;
+}
+
+.update{
+  background-color: #607D8B;
+}
+
+.delete{
+ background-color: rgb(236, 186, 186);
+ color: black;
+}
+
+/* .edit-buttons{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ gap: 5px;
+ border: none;
+} */
